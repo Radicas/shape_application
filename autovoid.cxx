@@ -299,7 +299,6 @@ long dv_autovoid_instance_head(shape_type *shape_p, dvInstData **pp_instaData,
             !(baseMode != DV_FILL_WYSIWYG && extMode == DV_FILL_FAST && dba_dyn_shape_init_fracture_for_serial_or_parallel(boundary_p))){
             // the above !(baseMode != DV_FILL_WYSIWYG && extMode == DV_FILL_FAST) will have to be reconsidered when dv_autovoid below gets moved out
             // 下面dv_autovoid出去时，!(baseMode != DV_FILL_WYSIWYG && extMode == DV_FILL_FAST) 不得不被重新考虑
-
         */
 
         if (p_instData == NULL)

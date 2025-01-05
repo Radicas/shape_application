@@ -64,7 +64,6 @@ long dba_merge_shapes_all(int mode, int layer);
 long _cre_clean_shape(dba_object_handle object_handle, box_type* win);
 long dba_dynamic_shape_update_etch(dba_object_handle object_handle, dyn_fill_control_type action,box_type* win);
 long dba_dynamic_shape_update_etch_low(dba_object_handle object_handle, dyn_fill_control_type action, box_type* win);
-long dba_dynamic_shape_update_etch_low(dba_object_handle object_handle, dyn_fill_control_type action, box_type* win);
 dba_object_handle dba_dynamic_shape_get_boundary_pvt(dba_object_handle object_handle, int checkMask);
 dba_object_handle dba_dynamic_shape_get_boundary(dba_object_handle object_handle);
 long _dyn_find_net(dba_object_handle item_ptr, void* user_arg);
